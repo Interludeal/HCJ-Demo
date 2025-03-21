@@ -20,13 +20,13 @@ function showhtml() {
 }
 
 function showcss() {
-  document.getElementById('fig').src = 'CSS3.png'
+  document.getElementById('fig').src = 'img/CSS3.png'
   document.getElementById('desc').innerHTML =
     '<b>CSS</b>는 HTML 문서의 스타일을 지정하기 위한 언어이다.'
 }
 
 function showjs() {
-  document.getElementById('fig').src = 'Javascript.png'
+  document.getElementById('fig').src = 'img/Javascript.png'
   document.getElementById('desc').innerHTML =
     '<b>js</b>는 웹을 위한 프로그래밍 언어이며 웹문서에서 동작을 실행할 수 있다.'
 }
