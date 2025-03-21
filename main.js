@@ -26,7 +26,7 @@ function showcss() {
 }
 
 function showjs() {
-  document.getElementById('fig').src = 'javascript.png'
+  document.getElementById('fig').src = 'Javascript.png'
   document.getElementById('desc').innerHTML =
     '<b>js</b>는 웹을 위한 프로그래밍 언어이며 웹문서에서 동작을 실행할 수 있다.'
 }
