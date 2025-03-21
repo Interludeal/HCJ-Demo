@@ -4,6 +4,10 @@
   margin: 0;
 }
 
+html {
+  font-size: 16px;
+}
+
 body {
   background-color: linen;
   color: #333;
@@ -13,9 +17,10 @@ body {
 }
 
 .container {
-  max-width: 5000px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 30px;
+  width: 100%;
 }
 
 .main {
@@ -30,8 +35,11 @@ h1 {
 
 .title {
   text-align: center;
-  font-size: clamp(3rem, 10vw, 6.25rem);
+  font-size: 4rem;
+  font-size: clamp(2rem, 5em, 4rem) !important;
   color: black;
+  white-space: normal;
+  word-break: break-word;
 }
 
 .team {
