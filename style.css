@@ -20,7 +20,8 @@ body {
 
 .main {
   color: blue;
-  line-height: 2.5;
+  line-height: 1.8;
+  margin-bottom: 0.5rem;
 }
 
 /*
@@ -34,13 +35,15 @@ h1 {
   color: black;
   white-space: normal;
   word-break: break-word;
+  margin-bottom: 0.5rem;
+  padding: 0;
 }
 
 .team {
   max-width: 100%;
-  margin: 10vh 0;
-  margin-top: 2vh;
-  margin-bottom: 2vh;
+  margin: 5vh 0;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
   padding: 0 1.875rem;
   display: flex;
   justify-content: space-between;
@@ -50,7 +53,7 @@ h1 {
 .navbar {
   background-color: black;
   color: #fff;
-  height: 10vh;
+  height: 8vh;
 }
 
 .navbar .container {
@@ -68,7 +71,7 @@ h1 {
 }
 
 .navbar ul li {
-  margin-left: 1.25rem;
+  margin-left: 1rem;
 }
 
 .navbar .logo {
@@ -90,8 +93,8 @@ h1 {
 }
 
 button {
-  padding: 0.3125rem 0.625rem;
-  margin: 0.3125rem 0.625rem;
+  padding: 0.25rem 0.5rem;
+  margin: 0.25rem 0.5rem;
   font-size: 1rem;
   font-weight: bold;
   background-color: lightgray;
@@ -106,6 +109,7 @@ button:hover {
 img {
   max-width: 100%;
   height: auto;
+  margin-bottom: 0.5rem;
 }
 
 html {
