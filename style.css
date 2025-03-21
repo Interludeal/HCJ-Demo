@@ -13,14 +13,14 @@ body {
 }
 
 .container {
-  max-width: 1000px;
+  max-width: 1100px;
   margin: 0 auto;
   padding: 0 30px;
 }
 
 .main {
   color: blue;
-  line-height: 2;
+  line-height: 2.5;
 }
 
 /*
